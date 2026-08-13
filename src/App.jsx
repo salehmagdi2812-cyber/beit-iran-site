@@ -153,7 +153,7 @@ async function storageList(prefix) {
    backend (e.g. https://formspree.io — 2 minute signup, no code) and
    paste your endpoint URL below. Every order will then also be emailed
    to you automatically, regardless of device. Leave it blank to skip. */
-const ORDER_NOTIFY_ENDPOINT = ""; // e.g. "https://formspree.io/f/xxxxxxx"
+const ORDER_NOTIFY_ENDPOINT = "https://formspree.io/f/mbgrypko";
 
 async function notifyOrder(order) {
   if (!ORDER_NOTIFY_ENDPOINT) return;
